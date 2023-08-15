@@ -1,10 +1,7 @@
 /* Populate database with sample data. */
 
-SELECT * FROM animals WHERE name LIKE '%___mon';
-SELECT name FROM animals WHERE date_of_birth BETWEEN '2016-01-01' AND '2019-12-31';
-SELECT name FROM animals WHERE neutered = true AND escape_attempts < 3;
-SELECT date_of_birth FROM animals WHERE (name = 'Agumon' OR name = 'Pikachu');
-SELECT (name, escape_attempts) FROM animals WHERE weight_kg > 10.5;
-SELECT * FROM animals WHERE neutered = true;
-SELECT * FROM animals WHERE name NOT IN ('Gabumon');
-SELECT * FROM animals WHERE weight_kg >= 10.4 AND  weight_kg <= 17.3;
+INSERT INTO animals (name, date_of_birth, escape_attempts, neutered, weight_kg) 
+VALUES ('Agumon', '2020-02-03', 0, true, 10.23),
+       ('Gabumon', '2018-11-15', 2, true, 8),
+       ('Pikachu', '2021-01-7', 1, false, 15.04),
+       ('Devimon', '2017-05-12', 5, false, 11);
