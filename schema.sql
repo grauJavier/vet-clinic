@@ -1,5 +1,6 @@
 /* Database schema to keep the structure of entire database. */
 
+/* MILESTONE 1 - Create animals table */
 CREATE TABLE animals (
     id int GENERATED ALWAYS AS IDENTITY,
     name varchar(100) DEFAULT 'Unknown',
@@ -8,3 +9,7 @@ CREATE TABLE animals (
     neutered BOOLEAN,
     weight_kg decimal(5, 2)
 );
+
+/* MILESTONE 2 - Query and update animals table */
+ALTER TABLE animals
+ADD species char(20);
