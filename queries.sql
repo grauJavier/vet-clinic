@@ -107,7 +107,7 @@ SELECT species.name AS animal_type,
 
 -- List all Digimon owned by Jennifer Orwell.
 SELECT owners.full_name AS owner,
-    animals.name AS digimon
+    animals.name AS digimons
     FROM owners
     JOIN animals
     ON owners.id = owners_id
