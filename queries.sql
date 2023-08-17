@@ -209,7 +209,7 @@ SELECT
 	animals.neutered,
 	animals.weight_kg,
 	species.name AS species,
-	owners.full_name AS owner,
+	owners.full_name AS patient_owner,
 	vets.name AS vet_name,
 	vets.age AS vet_age,
 	vets.date_of_graduation AS vet_grad_date,
