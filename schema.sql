@@ -46,3 +46,22 @@ ALTER TABLE animals
 ALTER TABLE animals
     ADD CONSTRAINT fk_animals_owners
     FOREIGN KEY (owners_id) REFERENCES owners(id);
+
+/* MILESTONE 4 - Add "join table" for visits */
+CREATE TABLE vets (
+    id SERIAL PRIMARY KEY,
+    name varchar(100),
+	age smallint,
+    date_of_graduation date
+);
+
+CREATE TABLE specializations (
+	species_id int,
+	vets_id int
+);
+
+CREATE TABLE visits (
+	animals_id int,
+	vets_id int,
+	visit_date date
+);
