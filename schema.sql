@@ -66,6 +66,9 @@ CREATE TABLE visits (
 	visit_date date
 );
 
+/* MILESTONE 5 - Database performance audit */
 CREATE INDEX index_animal_id ON visits (animals_id);
 
 CREATE INDEX index_vet_id_asc ON visits(vets_id ASC);
+
+CREATE INDEX index_email ON owners (email);
