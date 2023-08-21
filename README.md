@@ -112,6 +112,14 @@ When you run these instructions and get answers, you can snap pictures of the re
 - Twitter: [@jgrauchile](https://twitter.com/jgrauchile)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/javiergrau)
 
+👤 **Lawrence Muema Kioko**
+- GitHub: [@githubhandle](https://github.com/Kidd254)
+- Twitter: [@twitterhandle](https://twitter.com/lawrenc98789206)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/lawrence-muema-kioko)
+
+👤 **Manuel Sánchez**
+- GitHub: [Luffytaro22](https://github.com/Luffytaro22)
+- LinkedIn: [Manuel Sánchez](https://www.linkedin.com/in/manuel-alejandro-sanchez-sierra-4b358b14a/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
